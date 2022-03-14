@@ -1,14 +1,14 @@
 {
   "name": "@dylanlv/eslint-config-basic",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "",
+  "license": "MIT",
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
   "keywords": [],
-  "license": "ISC",
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "eslint": "^8.11.0"
-  }
+  },
+  "gitHead": "9d6aefdc8eb445cafa9843b484585c98357b64f8"
 }
