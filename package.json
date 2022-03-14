@@ -5,10 +5,12 @@
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
   "description": "eslint规范",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "postinstall": "lerna bootstrap",
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
+    "@dylanlv/eslint-config": "*",
     "lerna": "^4.0.0"
   }
 }

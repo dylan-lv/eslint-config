@@ -5,14 +5,10 @@ importers:
   .:
     specifiers:
       '@dylanlv/eslint-config': '*'
-      eslint: ^8.11.0
       lerna: ^4.0.0
-      typescript: ^4.6.2
     devDependencies:
       '@dylanlv/eslint-config': 'link:'
-      eslint: 8.11.0
       lerna: 4.0.0
-      typescript: 4.6.2
 
   packages/basic:
     specifiers:
@@ -4526,12 +4522,6 @@ packages:
 
   /typedarray/0.0.6:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
-    dev: true
-
-  /typescript/4.6.2:
-    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
     dev: true
 
   /uglify-js/3.15.3:
