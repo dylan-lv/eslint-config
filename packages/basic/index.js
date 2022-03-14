@@ -5,10 +5,20 @@ module.exports = {
     node: true // Node.js 全局变量和 Node.js 作用域
   },
   extends: [
-    "standard"
+    "standard",
+    "plugin:import/recommended",
+    "plugin:eslint-comments/recommended"
   ],
   ignorePatterns: [
-    "*.min.*"
+    "*.min.*",
+    'dist',
+    'public',
+    'packages-lock.json',
+    'pnpm-lock.yaml',
+    'yarn.lock',
+    '!.github',
+    '!.vitepress',
+    '!.vscode',
   ],
   rules: {
     // common
