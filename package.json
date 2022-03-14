@@ -1,6 +1,7 @@
 {
-  "name": "@dylanlv/eslint-config",
-  "version": "0.1.2",
+  "name": "@dylanlv/eslint-config-monorepo",
+  "private": true,
+  "version": "0.1.3",
   "license": "MIT",
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
   "description": "eslint规范",
