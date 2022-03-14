@@ -12,6 +12,7 @@ module.exports = {
   ],
   rules: {
     // common
-    quotes: ["error", "double"]
+    quotes: ["error", "double"],
+    'no-unused-vars': 'warn',
   }
 }

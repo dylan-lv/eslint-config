@@ -8,6 +8,15 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0"
+  },
   "keywords": [],
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
