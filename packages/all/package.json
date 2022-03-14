@@ -1,6 +1,6 @@
 {
   "name": "@dylanlv/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
   "main": "index.js",
@@ -14,6 +14,6 @@
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@dylanlv/eslint-config-basic": "^0.0.4"
+    "@dylanlv/eslint-config-basic": "^0.0.5"
   }
 }
