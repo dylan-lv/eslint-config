@@ -1,6 +1,6 @@
 {
-  "name": "dylanlv-eslint-config",
-  "version": "0.1.0",
+  "name": "@dylanlv/eslint-config",
+  "version": "0.1.1",
   "license": "MIT",
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
   "description": "eslint规范",

@@ -17,6 +17,5 @@
   },
   "devDependencies": {
     "eslint": "^8.11.0"
-  },
-  "gitHead": "9d6aefdc8eb445cafa9843b484585c98357b64f8"
+  }
 }
