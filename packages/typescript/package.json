@@ -1,5 +1,5 @@
 {
-  "name": "@dylanlv/eslint-config-basic",
+  "name": "@dylanlv/eslint-config-ts",
   "version": "0.0.5",
   "description": "",
   "license": "MIT",
@@ -15,15 +15,14 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
   },
   "keywords": [],
   "dependencies": {
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "@dylanlv/eslint-config-basic": "^0.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0"
   },
   "devDependencies": {
     "eslint": "^8.11.0"
