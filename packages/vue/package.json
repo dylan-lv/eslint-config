@@ -1,6 +1,6 @@
 {
   "name": "@dylanlv/eslint-config-vue",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "license": "MIT",
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@dylanlv/eslint-config-ts": "^0.0.7",
+    "@dylanlv/eslint-config-ts": "^0.0.8",
     "eslint-plugin-vue": "^8.5.0"
   },
   "devDependencies": {
