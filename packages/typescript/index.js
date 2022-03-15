@@ -5,17 +5,6 @@ module.exports = {
     "@dylanlv/eslint-config-basic",
     "plugin:@typescript-eslint/recommended",
   ],
-  ignorePatterns: [
-    "*.min.*",
-    "dist",
-    "public",
-    "packages-lock.json",
-    "pnpm-lock.yaml",
-    "yarn.lock",
-    "!.github",
-    "!.vitepress",
-    "!.vscode",
-  ],
   rules: {
     'import/named': 'off',
 
