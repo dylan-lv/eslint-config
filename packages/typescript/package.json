@@ -1,6 +1,6 @@
 {
   "name": "@dylanlv/eslint-config-ts",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "license": "MIT",
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
@@ -20,7 +20,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@dylanlv/eslint-config-basic": "^0.0.8",
+    "@dylanlv/eslint-config-basic": "^0.0.9",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0"
   },
