@@ -2,27 +2,28 @@ module.exports = {
   env: {
     es6: true, // 支持除模块外所有 ECMAScript 6 特性（该选项会自动设置 ecmaVersion 解析器选项为 6）。
     browser: true, // 浏览器的全局变量
-    node: true // Node.js 全局变量和 Node.js 作用域
+    node: true, // Node.js 全局变量和 Node.js 作用域
   },
   extends: [
     "standard",
     "plugin:import/recommended",
-    "plugin:eslint-comments/recommended"
+    "plugin:eslint-comments/recommended",
   ],
   ignorePatterns: [
     "*.min.*",
-    'dist',
-    'public',
-    'packages-lock.json',
-    'pnpm-lock.yaml',
-    'yarn.lock',
-    '!.github',
-    '!.vitepress',
-    '!.vscode',
+    "dist",
+    "public",
+    "packages-lock.json",
+    "pnpm-lock.yaml",
+    "yarn.lock",
+    "!.github",
+    "!.vitepress",
+    "!.vscode",
   ],
   rules: {
     // common
-    quotes: ["error", "double"],
-    'no-unused-vars': 'warn',
-  }
+    quotes: ["error", "double"], // 双引号
+    "no-unused-vars": "warn",
+    "comma-dangle": ["error", "always-multiline"], // 当最后一个元素或属性与闭括号 ] 或 } 在 不同的行时，要求使用拖尾逗号；当在 同一行时，禁止使用拖尾逗号。
+  },
 }
