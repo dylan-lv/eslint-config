@@ -20,6 +20,25 @@ module.exports = {
     "!.vitepress",
     "!.vscode",
   ],
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
+    },
+  },
+  overrides: [
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
   rules: {
     // common
     quotes: ["error", "double"], // 双引号

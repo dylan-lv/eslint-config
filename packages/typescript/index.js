@@ -1,10 +1,11 @@
-// const basic = require("@dylanlv/eslint-config-basic")
+const basic = require("@dylanlv/eslint-config-basic")
 
 module.exports = {
   extends: [
     "@dylanlv/eslint-config-basic",
     "plugin:@typescript-eslint/recommended",
   ],
+  overrides: basic.overrides,
   rules: {
     'import/named': 'off',
 
@@ -23,7 +24,7 @@ module.exports = {
     'indent': 'off',
     '@typescript-eslint/indent': ['error', 2],
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
     'no-use-before-define': 'off',
