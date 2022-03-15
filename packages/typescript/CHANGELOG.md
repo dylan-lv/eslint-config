@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.0.6](https://github.com/dylan-lv/eslint-config/compare/v0.0.5...v0.0.6) (2022-03-15)
 
-**Note:** Version bump only for package @dylanlv/eslint-config
-
-
-
-
-
-## [0.0.5](https://github.com/dylan-lv/eslint-config/compare/v0.0.4...v0.0.5) (2022-03-14)
-
-**Note:** Version bump only for package @dylanlv/eslint-config
+**Note:** Version bump only for package @dylanlv/eslint-config-ts
