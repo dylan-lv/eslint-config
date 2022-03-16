@@ -8,7 +8,9 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "lerna bootstrap",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish --conventional-commits",
+    "fromgit": "lerna publish from-git",
+    "frompackage": "lerna publish from-package"
   },
   "devDependencies": {
     "@dylanlv/eslint-config": "*",
