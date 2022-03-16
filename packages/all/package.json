@@ -1,6 +1,6 @@
 {
   "name": "@dylanlv/eslint-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "license": "MIT",
   "author": "Dylan Lv<417703682@qq.com>(https://github.com/dylan-lv/)",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@dylanlv/eslint-config-vue": "^0.0.9",
+    "@dylanlv/eslint-config-vue": "^0.0.10",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint-config-standard": "^16.0.3",
