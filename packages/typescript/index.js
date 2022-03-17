@@ -1,8 +1,8 @@
-const basic = require("@dylanlv/eslint-config-basic")
+const basic = require("@hayeslv/eslint-config-basic")
 
 module.exports = {
   extends: [
-    "@dylanlv/eslint-config-basic",
+    "@hayeslv/eslint-config-basic",
     "plugin:@typescript-eslint/recommended",
   ],
   overrides: basic.overrides,

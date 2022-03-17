@@ -1,0 +1,9 @@
+#!/bin/sh
+basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
+
+case `uname` in
+    *CYGWIN*) basedir=`cygpath -w "$basedir"`;;
+esac
+
+"D:\node\node.exe"  "C:/Users/41770/AppData/Roaming/npm/pnpm-global/5/node_modules/pnpm/bin/pnpm.cjs" "$@"
+exit $?
