@@ -1,16 +1,16 @@
 {
   "name": "@hayeslv/eslint-config-monorepo",
   "private": true,
-  "version": "0.0.11",
+  "version": "0.0.12",
   "license": "MIT",
   "author": "Hayes Lv<417703682@qq.com>(https://github.com/hayeslv/)",
   "description": "eslint规范",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "postinstall": "lerna bootstrap",
-    "release": "lerna publish --conventional-commits"
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag"
   },
   "devDependencies": {
-    "@hayeslv/eslint-config": "*"
+    "@hayeslv/eslint-config": "*",
+    "bumpp": "^7.1.1"
   }
 }

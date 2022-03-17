@@ -20,7 +20,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@hayeslv/eslint-config-basic": "^0.0.12",
+    "@hayeslv/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0"
   },
