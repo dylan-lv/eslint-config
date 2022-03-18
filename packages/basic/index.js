@@ -42,6 +42,7 @@ module.exports = {
   rules: {
     // import
     "import/no-unresolved": "off",
+    "import/named": "off",
 
     // common
     semi: [2, "always"], // 结尾始终分号
