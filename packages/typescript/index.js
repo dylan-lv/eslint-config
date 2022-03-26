@@ -1,9 +1,9 @@
-const basic = require("@hayeslv/eslint-config-basic")
+const basic = require('@hayeslv/eslint-config-basic')
 
 module.exports = {
   extends: [
-    "@hayeslv/eslint-config-basic",
-    "plugin:@typescript-eslint/recommended",
+    '@hayeslv/eslint-config-basic',
+    'plugin:@typescript-eslint/recommended',
   ],
   overrides: basic.overrides,
   rules: {
@@ -18,6 +18,13 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
+    '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/prefer-ts-expect-error': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/brace-style': [
+      'error',
+      '1tbs'
+    ],
 
     // Override JS
     'no-useless-constructor': 'off',
