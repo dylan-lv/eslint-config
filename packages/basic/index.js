@@ -49,6 +49,6 @@ module.exports = {
     quotes: ["error", "double"], // 双引号
     "no-unused-vars": "warn",
     "comma-dangle": ["error", "always-multiline"], // 当最后一个元素或属性与闭括号 ] 或 } 在 不同的行时，要求使用拖尾逗号；当在 同一行时，禁止使用拖尾逗号。
-    "space-before-function-paren": [2, "never"] // 函数左括号前不能有空格
+    "space-before-function-paren": [2, "never"], // 函数左括号前不能有空格
   },
 }
