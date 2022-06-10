@@ -22,10 +22,10 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/prefer-ts-expect-error': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
-    '@typescript-eslint/brace-style': [
-      'error',
-      '1tbs'
-    ],
+    // '@typescript-eslint/brace-style': [
+    //   'error',
+    //   '1tbs'
+    // ],
     "@typescript-eslint/no-inferrable-types": "off", // 关闭class类型推导
     "@typescript-eslint/no-var-requires": "off", // 允许使用 require 语法
     "@typescript-eslint/member-delimiter-style": [ // interface 使用分号
