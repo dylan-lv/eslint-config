@@ -19,13 +19,14 @@ module.exports = {
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     "@typescript-eslint/brace-style": ["warn", "1tbs", { allowSingleLine: true }], // 大括号风格要求
-    '@typescript-eslint/no-var-requires': 'off',
-    '@typescript-eslint/prefer-ts-expect-error': 'off',
-    '@typescript-eslint/ban-ts-comment': 'off',
+    // '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     // '@typescript-eslint/brace-style': [
     //   'error',
     //   '1tbs'
     // ],
+    '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/prefer-ts-expect-error': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
     "@typescript-eslint/no-inferrable-types": "off", // 关闭class类型推导
     "@typescript-eslint/no-var-requires": "off", // 允许使用 require 语法
     "@typescript-eslint/member-delimiter-style": [ // interface 使用分号
@@ -51,9 +52,8 @@ module.exports = {
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
     'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
+    '@typescript-eslint/no-use-before-define': "off",
     'brace-style': 'off',
-    '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     'object-curly-spacing': 'off',
