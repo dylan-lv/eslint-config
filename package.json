@@ -1,14 +1,14 @@
 {
   "name": "@hayeslv/eslint-config-monorepo",
   "private": true,
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "author": "Hayes Lv<417703682@qq.com>(https://github.com/hayeslv/)",
   "description": "eslint规范",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag",
-    "publish": "pnpm -r publish --access public --no-git-checks"
+    "publish": "pnpm -r publish --access public"
   },
   "devDependencies": {
     "@hayeslv/eslint-config": "*",
